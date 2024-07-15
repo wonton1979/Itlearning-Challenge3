@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Code Challenge 3</title>
+</head>
+<body>
+    <main>
+        <header>
+            <section>
+                <div class="header-container">
+                    <div class="logo">
+                        <img src="Images/company-logo-top.jpg" alt="Logo of Colorful Life">
+                    </div>
+                    <div class="nav-bar" id="home">
+                        <div class="btn-group flex-wrap" role="group" aria-label="Basic outlined example">
+                            <a href="#"><button type="button" class="btn btn-outline-secondary left">HOME</button></a>
+                            <a href="#about-us"><button type="button" class="btn btn-outline-secondary middle">ABOUT US</button></a>
+                            <a href="#"><button type="button" class="btn btn-outline-secondary middle">PURCHASE</button></a>
+                            <a href="#featured-themes"><button type="button" class="btn btn-outline-secondary middle">FEATURED</button></a>
+                            <a href="#contact-us"><button type="button" class="btn btn-outline-secondary right">CONTACT US</button></a>
+                        </div>
+                    </div>
+                    <div class="drop-down-menu-icon">
+                        <h5><span>MENU</span></h5>
+                        <span><img src="./Images/menu_icon.png" id="menu-icon" alt="Small Screen Top Menu"></span>
+                    </div>
+                </div>
+                <div class="drop-down-menu" id="menu">
+                    <ul class="drop-down-menu-list">
+                        <div class="close-menu-icon" id="menu-close">
+                            <img src="Images/close_menu_icon.svg" alt="Close Menu Icon">
+                        </div>
+                        <li>
+                            <img src="Images/home_menu-icon.svg" alt="Home Menu Icon">
+                            <h5><a href="#">Home</a></h5>
+                        </li>
+                        <li>
+                            <img src="Images/about_menu_icon.svg" alt="About Menu Icon">
+                            <h5><a href="#about-us">About Us</a></h5>
+                        </li>
+                        <li>
+                            <img src="Images/purchase_menu_icon.svg" alt="Purchase Menu Icon">
+                            <h5><a href="#">Purchase</a></h5>
+                        </li>
+                        <li>
+                            <img src="Images/featured_menu_icon.svg" alt="Featured Products Menu Icon">
+                            <h5><a href="#featured-themes">Featured</a></h5>
+                        </li>
+                        <li>
+                            <img src="Images/contact_menu_icon.svg" alt="Contact Us Menu Icon">
+                            <h5><a href="#contact-us">Contact Us</a></h5>
+                        </li>
+                    </ul>
+                </div>
+                <div id="carousel-contents" class="carousel slide carousel-dark" data-bs-ride = "carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active text-center">
+                            <h3>Extensive Selection of Lego Products:</h3>
+                            <p>We Offer a comprehensive range of Lego sets, including the latest releases, classic collections, themed sets (e.g., Star Wars, Harry Potter, City), and special edition items.</p>
+                        </div>
+                        <div class="carousel-item text-center">
+                            <h3>Community and Support</h3>
+                            <p>Enable customers to leave reviews and ratings for Lego sets, helping others make informed purchasing decisions.</p>
+                        </div>
+                        <div class="carousel-item text-center">
+                            <h3>Interactive Shopping Experience</h3>
+                            <p>Allow customers to view Lego sets in 3D, giving them a detailed look at the product from all angles before purchasing.</p>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-contents" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-contents" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-contents" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel-contents" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel-contents" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <section class="new-products">
+            <div class="new-product-container">
+                <div class="row">
+                    <div class="col-lg product-image">
+                        <img src="Images/LEGO%20DREAMZzz™%20sets.webp" alt="LEGO DREAMZzz™ sets">
+                    </div>
+                    <div class="col-lg product-description">
+                        <h2>Newest Lego Theme : LEGO DREAMZzz™</h2>
+                        <br/>
+                        <h6>Immerse yourself in the fantastical world of LEGO DREAMZzz™.</h6>
+                        <br/>
+                        <p  id="lego-dream-content">
+                            Step into the extraordinary and enchanting universe of LEGO DREAMZzz™.
+                            These captivating sets are designed to bring your wildest dreams to life with their vibrant and imaginative designs.
+                            Featuring an array of colorful bricks, the sets include unique and whimsical characters such as fantasy creatures,
+                            enchanted vehicles, and dream-like landscapes.
+                            <br/><br/>
+                            Each set is a gateway to a world where creativity knows no bounds. Construct mystical castles, magical forests,
+                            and otherworldly realms where heroic minifigures in colorful attire embark on fantastical adventures.
+                            The attention to detail is extraordinary, with playful accessories and intricate structures that add depth and dimension to your creations.
+                        </p>
+                        <button class="btn btn-primary" id="btn-new-product-read-more">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="featured-themes" id="featured-themes">
+            <div class="container text-center">
+                <div class="row title">
+                    <div class="col-md-12"><h2>Featured Lego Themes</h2></div>
+                </div>
+                <div class="row sub-title">
+                    <div class="col-md-12"><h5>These are the most liked LEGO themes over the years</h5></div>
+                </div>
+                <div class="row g-0 content">
+                    <div class="col-lg-2 col-md-3 frame" id="city-frame"><img src="Images/LEGO%20City%20sets.webp" alt="Lego City small Clickable image"></div>
+                    <div class="col-lg-2 col-md-3 frame" id="friends-frame"><img src="Images/LEGO%20Friends%20sets.webp" alt="Lego Friends Clickable small image"></div>
+                    <div class="col-lg-2 col-md-3 frame" id="ninjago-frame"><img src="Images/LEGO%20Ninjago%20set.webp" alt="Lego Ninjago Clickable small image"></div>
+                    <div class="col-lg-2 col-md-3 frame" id="jurassic-frame"><img src="Images/LEGO%20Jurassic%20World%20sets.webp" alt="Lego Jurassic World Clickable small image"></div>
+                    <div class="col-lg-2 col-md-3 frame" id="technic-frame"><img src="Images/LEGO%20Technic%20sets.webp" alt="Lego Technic Clickable small image"></div>
+                </div>
+                <div class="row g-0 popup-frame" id="theme-description">
+                    <div class="col-lg-12 popup-frame-icon-container">
+                        <i class="material-icons" id="btn-popup-close">close</i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 mt-5 mb-4 contact-us" id="contact-us">
+                        <div class="row"><h2>CONTACT US</h2></div>
+                        <div class="row mb-3 mt-3"><h6>SEND US A MESSAGE</h6></div>
+                        <div class="row form-group" id="form-contact-us">
+                            <form id="contact-us-form">
+                                <div class="mb-3">
+                                    <input type="text" name="FullName" class="form-control" id="InputFullName" placeholder="FULL NAME">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" name="Email" class="form-control" id="InputEmail" placeholder="YOUR EMAIL">
+                                </div>
+                                <div class="mb-3 textarea">
+                                    <textarea name="Message" class="form-control" id="InputTextarea" rows="3" placeholder="YOUR MESSAGE"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 sitemap mt-5">
+                        <div class="row"><h2>SITEMAP</h2></div>
+                        <div class="row mb-3 mt-3"><h6>ALL OUR PAGES</h6></div>
+                        <div class="row link-list">
+                            <ul>
+                                <li><a href="#home">HOME</a></li>
+                                <li><a href="#contact-us">ABOUT US</a></li>
+                                <li><a href="#featured-themes">FEATURES</a></li>
+                                <li><a href="#home">PRICING</a></li>
+                                <li><a href="#contact-us">CONTACT US</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 icons mt-5">
+                        <div class="row company-logo">
+                            <img src="Images/company-logo.jpg" style="display: inline-block" alt="Company Logo">
+                        </div>
+                        <div class="row mt-4 phone-call">
+                            <img src="Images/phone-call.png" style="display: inline-block" alt="Phone-call Icon">
+                            <span style="display: inline-block;align-self: center;">07590201987</span>
+                        </div>
+                        <div class="row mt-4 email-icon" id="about-us">
+                            <img src="Images/email-icon.png" style="display: inline-block" alt="Email Icon">
+                            <span style="display: inline-block;align-self: center;"><a href="mailto:colorfullifeltd@yahoo.co.uk">colorfullifeltd@yahoo.co.uk</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-bottom">
+                <div class="row second-row">
+                    <div class="col-12 copyright">
+                        <p>COPYRIGHT 2024. ALL RIGHTS RESERVED COLORFUL LIFE LTD.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="Javascript/siteScript.js"></script>
+</body>
+</html>
