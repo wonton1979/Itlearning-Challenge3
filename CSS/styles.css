@@ -24,7 +24,6 @@ a:active {
 html,body{
     margin: 0;
     padding: 0;
-    max-width: 100%;
     overflow-x: hidden;
 }
 
@@ -508,4 +507,77 @@ html,body{
     color: red;
 }
 
+/* CSS for gallery page */
+.gallery-header .header-container .nav-bar{
+    margin-left: 5vw;
+}
 
+
+
+.gallery-main-container{
+    margin-top: 3vh;
+    max-height: 100vh;
+}
+
+.gallery-main-container .img-container{
+
+}
+
+.img-wrapper{
+    margin-bottom: 2vh;
+    border: solid 1px black;
+    margin-right: 1.3vw;
+    box-shadow: 5px 10px #888888;
+    border-radius: 5px;
+}
+
+.img-wrapper:hover{
+    cursor: pointer;
+}
+
+#lego-76247{
+    margin-left: 1.5vw;
+}
+
+.gallery-main-container figure{
+    display: inline-block;
+}
+
+.gallery-main-container figcaption{
+    display: block;
+    margin-top: 2vh;
+}
+
+.gallery-main-container .small-img-frame{
+    max-width: 250px;
+    height: 200px;
+    object-fit: contain;
+    margin-top: 2vh;
+}
+
+.gallery-main-container .vertical-large-img-frame{
+    max-width: 300px;
+    height: 485px;
+    margin-top: 2vh;
+    object-fit: contain;
+}
+
+.gallery-main-container .horizontal-large-img-frame{
+    width: 600px;
+    height: 200px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    object-fit: contain;
+}
+
+
+.gallery-main-container .img-container figure img{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.gallery-footer{
+    margin-top: 3vh;
+    border-top: solid 3px black;
+}

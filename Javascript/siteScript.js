@@ -10,6 +10,11 @@ document.getElementById("technic-frame").addEventListener("click", (e)=>{showFra
 window.addEventListener("resize", getWindowSize);
 document.getElementById("contact-us-form").addEventListener("submit",(event)=>{validateForm(event)},false)
 
+//Gallery part Javascript selector
+alert("Sfdsafas")
+
+
+
 let featuredDes = [];
 let featuredTitle = [];
 let popupClosed = false;
@@ -234,4 +239,6 @@ function submitMessage(){
     document.getElementById('response-message').style.color = "black";
     document.getElementById('response-message').style.fontWeight = "400";
 }
+
+
 
