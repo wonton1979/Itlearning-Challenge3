@@ -509,14 +509,18 @@ html,body{
 
 /* CSS for gallery page */
 .gallery-header .header-container .nav-bar{
-    margin-left: 5vw;
+    margin-left: 15vw;
+}
+
+.gallery-header .nav-bar .btn-group button{
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 
 
 .gallery-main-container{
     margin-top: 3vh;
-    max-height: 100vh;
 }
 
 .gallery-main-container .img-container{
@@ -563,14 +567,14 @@ html,body{
 }
 
 .gallery-main-container .horizontal-large-img-frame{
-    width: 600px;
+    width: 400px;
     height: 200px;
     margin-top: 2vh;
     margin-bottom: 2vh;
     object-fit: contain;
 }
 
-
+.product-details img,
 .gallery-main-container .img-container figure img{
     max-height: 100%;
     max-width: 100%;
@@ -580,4 +584,135 @@ html,body{
 .gallery-footer{
     margin-top: 3vh;
     border-top: solid 3px black;
+}
+
+.card-deck{
+    display: none;
+    position: absolute;
+    top: 30vh;
+    left: 35vw;
+    max-width: 25%;
+    max-height: 20%;
+}
+
+.card-deck .card{
+    border: solid 3px black;
+}
+
+#add-product-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 2.2rem;
+    max-width: 25%;
+    max-height: 20%;
+}
+
+#add-product-close:hover{
+    color: #FFD580;
+}
+
+.card-img-top{
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+
+#trolley_icon{
+    width: 6vh;
+    height: 6vh;
+    object-fit: contain;
+    transition: 0.5s ;
+}
+
+#trolley_icon:hover{
+    cursor: pointer;
+    object-fit: contain;
+}
+
+@keyframes trolley-roll-rover {
+    to {
+        transform: translateX(230px);
+    }
+}
+
+
+.search-help-cart{
+    display: flex;
+    margin-top: 5.3vh;
+}
+
+
+.search-help-cart .top-search{
+    padding-top: 0.5vh;
+    margin-right: 1vw;
+}
+
+.search-help-cart i{
+    font-size: 40px;
+    color: black;
+    display: inline-block;
+    margin-right: 1vw;
+}
+
+#gallery-search-box{
+    border: solid 3px black;
+    border-radius: 6px;
+}
+
+@media (max-width: 1600px){
+    .gallery-header .header-container .nav-bar {
+        margin-left: 5vw;
+
+    }
+}
+
+
+@media (max-width: 1300px){
+    .search-help-cart{
+        position: absolute;
+        left: 30vw;
+        top: 7vh;
+    }
+
+}
+
+@media (max-width: 980px){
+    #price-n-trolley{
+        display: block;
+    }
+
+    .search-help-cart{
+        margin-top: 8vh;
+        margin-left: 2vw;
+    }
+
+    .search-help-cart{
+        position: absolute;
+        left: 25vw;
+        top: 0;
+    }
+}
+
+@media (max-width: 680px){
+    .search-help-cart{
+        display: block;
+        left: 35vw;
+        top: 0;
+    }
+
+    .search-help-cart i{
+        padding-top: 1vh;
+    }
+
+    .card-deck{
+        max-width: 80%;
+        left: 13vw;
+    }
+
+    #gallery-search-box,
+    #gallery-top-search-icon,
+    #gallery-shopping-cart{
+        display: inline-block;
+    }
 }

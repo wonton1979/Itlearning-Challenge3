@@ -1,6 +1,8 @@
 document.getElementById("menu-close").addEventListener("click", closeMenu)
 document.getElementById("btn-popup-close").addEventListener("click", closePopupFrame)
 document.getElementById("menu-icon").addEventListener("click", showMenu)
+
+
 document.getElementById("btn-new-product-read-more").addEventListener("click", textFadeeffect)
 document.getElementById("city-frame").addEventListener("click", (e)=>{showFrame(0,"city",e)})
 document.getElementById("friends-frame").addEventListener("click", (e)=>{showFrame(1,"friends",e)})
@@ -9,10 +11,6 @@ document.getElementById("jurassic-frame").addEventListener("click", (e)=>{showFr
 document.getElementById("technic-frame").addEventListener("click", (e)=>{showFrame(4,"technic",e)})
 window.addEventListener("resize", getWindowSize);
 document.getElementById("contact-us-form").addEventListener("submit",(event)=>{validateForm(event)},false)
-
-//Gallery part Javascript selector
-alert("Sfdsafas")
-
 
 
 let featuredDes = [];
